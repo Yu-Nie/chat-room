@@ -11,9 +11,6 @@ import java.util.List;
 
 /**
  * [Add your documentation here]
- *
- * @author Yu Nie & Lesi He, Lab 03
- * @version 4/27/2020
  */
 final class ChatServer {
     private static int uniqueId = 0;
@@ -65,9 +62,6 @@ final class ChatServer {
     /**
      * This is a private class inside of the ChatServer
      * A new thread will be created to run this every time a new client connects.
-     *
-     * @author Yu Nie & Lesi He, Lab 03
-     * @version 4/27/2020
      */
     private final class ClientThread implements Runnable {
         Socket socket;
