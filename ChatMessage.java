@@ -2,9 +2,6 @@ import java.io.Serializable;
 
 /**
  * [Add your documentation here]
- *
- * @author Yu Nie & Lesi He, Lab 03
- * @version 4/27/2020
  */
 final class ChatMessage implements Serializable {
     private static final long serialVersionUID = 6898543889087L;
