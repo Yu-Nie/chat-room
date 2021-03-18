@@ -6,9 +6,6 @@ import java.util.Scanner;
 
 /**
  * [Add your documentation here]
- *
- * @author Yu Nie & Lesi He, Lab 03
- * @version 4/27/2020
  */
 final class ChatClient {
     private ObjectInputStream sInput;
@@ -150,9 +147,6 @@ final class ChatClient {
      * This is a private class inside of the ChatClient
      * It will be responsible for listening for messages from the ChatServer.
      * ie: When other clients send messages, the server will relay it to the client.
-     *
-     * @author Yu Nie & Lesi He, Lab 03
-     * @version 4/27/2020
      */
     private final class ListenFromServer implements Runnable {
         synchronized public void run() {
