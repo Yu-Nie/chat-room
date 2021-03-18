@@ -4,8 +4,6 @@ import java.util.ArrayList;
 /**
  * [Add your documentation here]
  *
- * @author Yu Nie & Lesi He, Lab 03
- * @version 4/27/2020
  */
 public class ChatFilter {
     ArrayList<String> badWords = new ArrayList<>();
